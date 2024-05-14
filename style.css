@@ -22,7 +22,7 @@
 }
 
 #menu-informacional{
-    background-color: #F9F9F9;
+    background-color: #d6d0d0bb;
     display: grid;
     grid-auto-flow: column;
     columns: auto;
