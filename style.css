@@ -2,6 +2,8 @@
     margin: 0;
     font-family: "Inter";
 }
+
+/* MENU SUPERIOR */
 #menu-superior{
     background-color: #303030;
     padding-top: 120px;
@@ -21,6 +23,7 @@
     font-size: 18px;
 }
 
+ /* MENU INFORMACIONAL */
 #menu-informacional{
     background-color: #d6d0d0bb;
     display: grid;
@@ -40,11 +43,12 @@
     font-size: 18px;
 }
 
+/* MENU HISTORIA */
 #menu-historia{
+    padding-bottom: 50px;
     display: grid;
     grid-auto-flow: column;
     columns: auto;
-    padding-bottom: 50px;
 }
 
 #titulo-historia{
@@ -52,7 +56,6 @@
     margin-left: 50px;
     font-size: 30px;
     font-weight: 500;
-
 }
 
 #texto-historia{
@@ -61,11 +64,31 @@
     font-weight: 300;
 }
 
-#imagem{
+#carrossel{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.imagens{
     margin-top: 50px;
     height: 500px;
+    border-radius: 20px;
 }
 
+.setas{
+    margin-top: 255px;
+}
+
+#seta-esquerda{
+    display: none;
+    
+}
+
+#imagem-casa{
+    display: none;
+}
+
+/* SEÇÃO FORMULÁRIO */
 #secao-formulario{
     background-color: #303030;
     padding: 50px 0px 50px 0px;
